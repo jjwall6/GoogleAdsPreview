@@ -1,0 +1,118 @@
+#input-section {
+  width: 50%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the spacing between fields as desired */
+ 
+}
+
+#input-section fieldset legend {
+  margin-bottom: 5px; /* Adjust the spacing between fieldsets as desired */
+}
+
+#input-section fieldset label {
+  display: flex;
+  align-items: center;
+}
+
+#preview-section {
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:20px;
+}
+
+#input-section input[type="text"] {
+  width: 75%; /* Adjust the width as desired */
+}
+
+/* Header styling */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #1a0dab;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  color: #666;
+  margin: 0;
+}
+
+<style>
+  .ad {
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .headline {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #1a0dab;
+    margin-top: 8px;
+    margin-bottom: 1px;
+  }
+
+  .description {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+
+  .url {
+    font-family: Arial, sans-serif;
+    color: #202124;
+    font-size: 12px;
+    
+  }
+  
+  .businessname {
+    font-family: Arial, sans-serif;
+    font-size: 16px;    
+    color: #202124;
+    font-weight: 400;
+    margin-bottom:0px
+  }
+  
+ 
+ <style>
+  
+ 
+  fieldset {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1906A7;
+  }
+
+  fieldset legend {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1906A7;
+  }
+
+  label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;    
+    color: #666;
+  }
+  
